@@ -13,6 +13,7 @@
 		284A9E1523BE856A00FF9272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A9E1323BE856A00FF9272 /* Main.storyboard */; };
 		284A9E1723BE856D00FF9272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284A9E1623BE856D00FF9272 /* Assets.xcassets */; };
 		284A9E1A23BE856D00FF9272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284A9E1823BE856D00FF9272 /* LaunchScreen.storyboard */; };
+		284A9E2223BE857E00FF9272 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284A9E2123BE857E00FF9272 /* PathView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		284A9E1623BE856D00FF9272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284A9E1923BE856D00FF9272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		284A9E1B23BE856D00FF9272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284A9E2123BE857E00FF9272 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		284A9E0C23BE856A00FF9272 /* PathDrawingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				284A9E1B23BE856D00FF9272 /* Info.plist */,
 				284A9E0D23BE856A00FF9272 /* AppDelegate.swift */,
+				284A9E2123BE857E00FF9272 /* PathView.swift */,
 				284A9E0F23BE856A00FF9272 /* SceneDelegate.swift */,
 				284A9E1123BE856A00FF9272 /* ViewController.swift */,
-				284A9E1323BE856A00FF9272 /* Main.storyboard */,
 				284A9E1623BE856D00FF9272 /* Assets.xcassets */,
 				284A9E1823BE856D00FF9272 /* LaunchScreen.storyboard */,
-				284A9E1B23BE856D00FF9272 /* Info.plist */,
+				284A9E1323BE856A00FF9272 /* Main.storyboard */,
 			);
 			path = PathDrawingDemo;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				284A9E1223BE856A00FF9272 /* ViewController.swift in Sources */,
+				284A9E2223BE857E00FF9272 /* PathView.swift in Sources */,
 				284A9E0E23BE856A00FF9272 /* AppDelegate.swift in Sources */,
 				284A9E1023BE856A00FF9272 /* SceneDelegate.swift in Sources */,
 			);
