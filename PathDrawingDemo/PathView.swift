@@ -15,6 +15,26 @@ class PathView: UIView {
         shapeLayer.fillColor = fillColor.cgColor
         shapeLayer.strokeColor = strokColor.cgColor
         shapeLayer.lineWidth = lineWidth
+        
+        animateFillColor()
+        animateStrokeEnd()
+    }
+    
+    private func animateFillColor() {
+        let animation = CABasicAnimation(keyPath: "fillColor")
+        animation.duration = 1
+        animation.fillMode = .forwards
+        animation.isRemovedOnCompletion = false
+        shapeLayer.add(animation, forKey: "fillAnimation")
+    }
+    private func animateStrokeEnd() {
+        let animation = CABasicAnimation(keyPath: "strokeEnd")
+        animation.fromValue = 0
+        animation.toValue = 1
+        animation.duration = 1
+        animation.fillMode = .forwards
+        animation.isRemovedOnCompletion = false
+        shapeLayer.add(animation, forKey: "strokeAnimation")
     }
     
     private var shapeLayer: CAShapeLayer {
